@@ -1,6 +1,158 @@
-<DOCTYPE! html>
-<html>
-  <body>
-    <h1>Hello neighbour</h2>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Developer CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            color: #2c3e50;
+        }
+        .header p {
+            margin: 5px 0;
+            color: #7f8c8d;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .section ul li strong {
+            color: #2c3e50;
+        }
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skills ul li {
+            background: #3498db;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 15px;
+            }
+            .header h1 {
+                font-size: 1.8em;
+            }
+            .section h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>John Doe</h1>
+            <p>Full Stack Developer</p>
+            <p><a href="mailto:john.doe@email.com">john.doe@email.com</a> | (123) 456-7890 | <a href="https://github.com/johndoe">GitHub</a> | <a href="https://linkedin.com/in/johndoe">LinkedIn</a></p>
+        </div>
+
+        <div class="section">
+            <h2>About</h2>
+            <p>Passionate Full Stack Developer with 5+ years of experience building scalable web applications. Skilled in modern JavaScript frameworks and cloud technologies, with a focus on clean code and user-centric design.</p>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript (ES6+)</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>AWS</li>
+                <li>Docker</li>
+                <li>Git</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Senior Developer, TechCorp</strong> — 2022–Present<br>
+                    Led a team of 5 developers to build a microservices-based e-commerce platform, improving performance by 30%. Implemented CI/CD pipelines using Jenkins and AWS.
+                </li>
+                <li>
+                    <strong>Full Stack Developer, Innovate Solutions</strong> — 2019–2022<br>
+                    Developed and maintained React-based frontends and Node.js backends for SaaS products. Reduced API response time by 25% through database optimization.
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>B.S. Computer Science, University of Example</strong> — 2015–2019<br>
+                    Graduated with honors, specializing in software engineering.
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>TaskManager</strong> — <a href="https://github.com/johndoe/taskmanager">GitHub</a><br>
+                    A productivity app built with React and Firebase, featuring real-time collaboration and a clean UI.
+                </li>
+                <li>
+                    <strong>Portfolio API</strong> — <a href="https://github.com/johndoe/portfolio-api">GitHub</a><br>
+                    A RESTful API for a personal portfolio, built with Node.js, Express, and MongoDB.
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
 </html>
